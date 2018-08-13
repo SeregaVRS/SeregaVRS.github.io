@@ -1,3 +1,7 @@
 # SeregaVRS.github.io
-create personal pages using githup statis pages feature
+Create personal pages using githup statis pages feature
 http://SeregaVRS.github.io
+
+Materials:
+https://jekyllrb.com
+https://jekyllrb.com/docs/structure/
