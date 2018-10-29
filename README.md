@@ -4,4 +4,5 @@ http://SeregaVRS.github.io
 
 Materials:
 https://jekyllrb.com
+
 https://jekyllrb.com/docs/structure/
