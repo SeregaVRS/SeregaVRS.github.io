@@ -1,34 +1,28 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/aboutme/">About Me</a></li>
-		        	<li><a href="/cv/">CV</a></li>
-				<li><a href="/pastprojects/">Past Projects</a></li>
-				<li><a href="/blog/">Blog</a></li>
-				<li><a href="/contactinfo/">Contact Info</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:vrsserega@gmail.com">Questions? Email Me</a></li>
-	        		<li><a href="https://seregavrs.github.io">My GitHub Pages site</a></li>
-	        		<li><a href="https://github.com/seregavrs">My GitHub repository</a></li>
-				<li><a href="https://bitbucket.org/SeregaRS/">My BitBucket repository</a></li>
-				<li><a href="https://stackoverflow.com/users/10220150/serega-vrs">My StackOverflow Profile</a></li>
-			</ul>
-			</footer>
-		</body>
-	</html>
+  <html>
+    <head>
+      <title>{{ page.title }}</title>
+      <!-- link to main stylesheet -->
+      <link rel="stylesheet" type="text/css" href="/css/main.css">
+    </head>
+    <body>
+      <nav>
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/aboutme/">About Me</a></li>
+              <li><a href="/cv/">CV</a></li>
+        <li><a href="/pastprojects/">Past Projects</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/contactinfo/">Contact Info</a></li>
+          </ul>
+      </nav>
+      <div class="container">
+      
+      {{ content }}
+      
+      </div><!-- /.container -->
+
+        {% include footer.html %}
+
+    </body>
+  </html>
