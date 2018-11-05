@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: About Me
+  link: /aboutme/
+- name: CV
+  link: /cv/
+- name: Past Projects
+  link: /pastprojects/
+- name: Blog
+  link: /blog/
+- name: Contact Info
+  link: /contactinfo/  
