@@ -1,22 +1,22 @@
 <nav>
   <ul>
     <li> 
-      <a href="/">Home</a>
+      <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>Home</a>
     </li>
     <li>
-      <a href="/aboutme/">About Me</a>
+      <a href="/aboutme/" {% if page.url == "/aboutme/" %}style="color: red;"{% endif %}>About Me</a>
     </li>
     <li>
-      <a href="/cv/">CV</a>
+      <a href="/cv/" {% if page.url == "/cv/" %}style="color: red;"{% endif %}>CV</a>
     </li>
     <li>
-      <a href="/pastprojects/">Past Projects</a>
+      <a href="/pastprojects/" {% if page.url == "/pastprojects/" %}style="color: red;"{% endif %}>Past Projects</a>
     </li>
     <li>
-      <a href="/blog/">Blog</a>
+      <a href="/blog/" {% if page.url == "/blog/" %}style="color: red;"{% endif %}>Blog</a>
     </li>
     <li>
-      <a href="/contactinfo/">Contact Info</a>
+      <a href="/contactinfo/" {% if page.url == "/contactinfo/" %}style="color: red;"{% endif %}>Contact Info</a>
     </li>
   </ul>
 </nav>
