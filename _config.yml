@@ -1,6 +1,6 @@
 name: Serega VRS (I don't want you to think like me I just want you to think)
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minima
 google_analytics: UA-NNNNNNNN-N
 permalink: /blog/:year/:month/:day/:title
 url: "https://seregavrs.github.io" # the base hostname & protocol for your site
