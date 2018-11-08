@@ -7,3 +7,5 @@ url: "https://seregavrs.github.io" # the base hostname & protocol for your site
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
+  - minima
