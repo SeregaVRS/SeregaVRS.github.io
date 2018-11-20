@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: 
+Sitemap: https://seregavrs.github.io/sitemap.xml
+
+# My example of robots.txt
+# It is possible to add anything here
